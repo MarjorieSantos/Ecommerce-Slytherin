@@ -1,0 +1,28 @@
+$dark-green: #143929;
+$medium-green: #217554;
+$white: #FFFFFF;
+$black: #000;
+$light-gray: #ECEAEA;
+
+
+@mixin title ($size) {
+  font-family: 'DM Serif Text', serif;
+  @if $size == 18 {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
+  @if $size == 20px {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+
+@mixin title-itens ($size) {
+  font-family: 'Cormorant Garamond', serif;
+  @if $size == 18 {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+}

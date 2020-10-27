@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+img {
+	display: block;
+	max-width: 100%;
+}
+
+.header {
+  width: 100%;
+}
+
+.nav-menu {
+  background: $dark-green;
+  padding: 10px 15px;
+}
+
+.nav-menu ul li {
+  list-style: none;
+  display: inline-block;
+  color: $white;
+  @include title (18)
+}
