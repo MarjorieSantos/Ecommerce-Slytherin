@@ -88,3 +88,10 @@ main {
   background: $medium-green;
   @include descriptions(14);
 }
+
+.footer {
+  background: $black;
+  color: $white;
+  @include title-itens(18);
+  padding: 30px;
+}

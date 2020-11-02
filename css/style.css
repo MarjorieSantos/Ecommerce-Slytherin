@@ -98,3 +98,13 @@ main {
   line-height: 25px;
   font-weight: 500;
 }
+
+.footer {
+  background: #000;
+  color: #FFFFFF;
+  font-family: "Cormorant Garamond", serif;
+  font-size: 18px;
+  line-height: 25px;
+  font-weight: bold;
+  padding: 30px;
+}
