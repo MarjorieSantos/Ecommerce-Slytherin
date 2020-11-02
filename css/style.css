@@ -21,6 +21,10 @@ button, li {
   cursor: pointer;
 }
 
+main {
+  background: #143929;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;

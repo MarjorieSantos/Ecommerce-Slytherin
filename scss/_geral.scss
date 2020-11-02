@@ -18,6 +18,10 @@ button, li {
   cursor: pointer;
 }
 
+main {
+  background: $dark-green;
+}
+
 .container {
   max-width: 900px;
   margin: 0 auto;
