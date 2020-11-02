@@ -6,7 +6,25 @@
 
 img {
   display: block;
-  max-width: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-family: "Cormorant Garamond", serif;
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+button, li {
+  cursor: pointer;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px 15px;
 }
 
 .header {
@@ -15,7 +33,12 @@ img {
 
 .nav-menu {
   background: #143929;
-  padding: 10px 15px;
+  padding: 15px 20px;
+}
+
+.nav-menu ul {
+  display: flex;
+  justify-content: space-between;
 }
 
 .nav-menu ul li {
@@ -25,4 +48,49 @@ img {
   font-family: "DM Serif Text", serif;
   font-size: 18px;
   line-height: 25px;
+}
+
+.content-itens {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.itens {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.itens-shop {
+  background: whitesmoke;
+  border-radius: 5px;
+  padding: 10px;
+  max-width: 170px;
+}
+
+.itens-shop p {
+  font-family: "DM Serif Text", serif;
+  font-size: 18px;
+  line-height: 25px;
+  margin-top: 5px;
+}
+
+.pages-number {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.pages-number button {
+  padding: 10px 20px;
+  font-size: 16x;
+  border: none;
+  border-radius: 2px;
+  color: #FFFFFF;
+  background: #217554;
+  font-family: "DM Serif Text", serif;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 500;
 }

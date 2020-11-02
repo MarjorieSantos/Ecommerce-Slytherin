@@ -91,7 +91,7 @@ const produtos = [
     category: 'vestuario',
   },
   {
-    name: 'BOLA DE CRISTAL DEMENTADORES - NOBLE COLLECTION',
+    name: 'BOLA DE CRISTAL DEMENTADORES',
     price: 159.90,
     color: 'transparent',
     img: 'https://user-images.githubusercontent.com/61071243/97245190-405b4f00-17d9-11eb-8eda-0f8206087da4.jpg',
@@ -112,7 +112,7 @@ const produtos = [
     category: 'colecionaveis',
   },
   {
-    name: 'NAGINI - COLEÇÃO CRIATURAS MÁGICAS #09 NOBLE COLLECTION',
+    name: 'NAGINI - COLEÇÃO CRIATURAS MÁGICAS',
     price: 179.90,
     color: 'brown',
     img: 'https://user-images.githubusercontent.com/61071243/97245411-c081b480-17d9-11eb-9c30-39b384314eb6.jpg',

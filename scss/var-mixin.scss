@@ -3,7 +3,22 @@ $medium-green: #217554;
 $white: #FFFFFF;
 $black: #000;
 $light-gray: #ECEAEA;
+$itens: whitesmoke;
 
+@mixin descriptions ($size) {
+  font-family: 'DM Serif Text', serif;
+  @if $size == 14 {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 500;
+  }
+
+  @if $size == 18 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+}
 
 @mixin title ($size) {
   font-family: 'DM Serif Text', serif;
@@ -12,7 +27,7 @@ $light-gray: #ECEAEA;
     line-height: 25px;
   }
 
-  @if $size == 20px {
+  @if $size == 20 {
     font-size: 20px;
     line-height: 25px;
   }
@@ -22,6 +37,11 @@ $light-gray: #ECEAEA;
   font-family: 'Cormorant Garamond', serif;
   @if $size == 18 {
     font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+  }
+  @if $size == 22 {
+    font-size: 22px;
     line-height: 25px;
     font-weight: bold;
   }
